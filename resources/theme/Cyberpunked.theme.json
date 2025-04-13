@@ -179,6 +179,7 @@
     "NavBar.borderColor": "debugColor",
 
     "Notification": {
+      "foreground": "foregroundBluePrimary",
       "background": "backgroundBluePassive",
       "borderColor": "foregroundBluePrimary",
 
