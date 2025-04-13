@@ -1,10 +1,9 @@
 {
   "name": "Cyberpunked",
   "author": "Roman Bureacov",
-  "editorScheme": "colors/Cyberpunk_Theme_Enhanced.xml",
   "dark": true,
   "colors": {
-    "backgroundRedInactive": "#0f0e14",
+    "backgroundRedInactive": "#260000",
     "backgroundRedPassive": "#39161c",
     "backgroundRedActive": "#7a2626",
     "foregroundRed": "#ff6259",
@@ -12,6 +11,8 @@
     "backgroundBlueActive": "#286871",
     "foregroundBluePrimary": "#64fdff",
     "foregroundBlueSecondary": "#3a7974",
+    "backgroundBlack": "#131220",
+    "foregroundYellow": "#fdd740",
     "colorDebug": "#ff00ff"
   },
   "ui": {
@@ -47,8 +48,6 @@
         "default.separatorColor": "forgroundBluePrimary"
       },
 
-      "background": "backgroundBluePassive",
-      "foreground": "backgroundBlueActive",
       "startBackground": "backgroundRedPassive",
       "endBackground": "backgroundRedPassive",
       "startBorderColor": "foregroundRed",
@@ -65,8 +64,17 @@
         "hoverBackground": "backgroundBluePassive",
         "selectedForeground": "foregroundBluePrimary",
         "selectedBackground": "backgroundBlueActive"
+      },
+      "Header": {
+        "background": "colorDebug",
+        "inactiveBackground": "backgroundRedPassive"
+      },
+      "HeaderTab": {
 
-      }
+      },
+
+      "background": "backgroundRedInactive"
+
     },
     "Code": {
       "Block": {
@@ -92,7 +100,7 @@
 
     },
     "Component": {
-
+      "borderColor": "debugColor"
     },
     "Counter": {
 
@@ -103,22 +111,33 @@
     "DragAndDrop": {
 
     },
+    "DefaultTabs": {
+      "background": "backgroundBluePassive",
+      "hoverBackground": "backgroundBlueActive",
+      "underlineColor": "foregroundBluePrimary",
+      "underlinedTabBackground": "backgroundBluePassive",
+      "underlinedTabForeground": "foregroundBluePrimary",
+      "inactiveUnderlineColor": "foregroundBlueSecondary"
+    },
     "Editor": {
-      "background": "backgroundRedPassive",
-      "foreground": "foregroundRed",
+      "background": "colorDebug",
+      "foreground": "colorDebug",
       "Gutter": {
 
       },
-      "Toolbar.borderColor": "colorDebug"
+      "SearchField": {
+        "background": "backgroundBluePassive"
+      },
+      "shortcutForeground": "colorDebug"
     },
     "EditorTabs": {
 
     },
     "FormattedTextField": {
-
+      "background": "colorDebug"
     },
     "Label": {
-
+      "foreground": "foregroundBluePrimary"
     },
     "Link": {
 
@@ -127,7 +146,7 @@
 
     },
     "MainToolbar": {
-      "background": "colorDebug"
+      "background": "backgroundRedPassive"
     },
     "MainWindow": {
       "Tab": {
@@ -138,34 +157,67 @@
 
     },
     "Menu": {
-
+      "separatorColor": "debugColor"
     },
     "MenuBar": {
-
+      "foreground": "colorDebug",
+      "selectionForeground": "colorDebug",
+      "selectionBackground": "colordDebug",
+      "borderColor": "colorDebug"
     },
     "MenuItem": {
+      "foreground": "foregroundBluePrimary",
+      "selectionBackground": "foregroundBluePrimary",
+      "acceleratorForeground": "foregroundBlueSecondary",
+      "disabledForeground": "foregroundBlueSecondary",
+      "selectionForeground": "foregroundBlueSecondary"
+    },
+    "CheckBoxMenuItem": {
 
     },
-    "NavBar.borderColor": "#000000",
+
+    "NavBar.borderColor": "debugColor",
 
     "Notification": {
       "background": "colorDebug"
     },
     "OptionPane": {
-      "background": "colorDebug"
+      "background": "backgroundRedPassive"
     },
     "Panel": {
-      "foreground": "foregroundBlueSecondary"
+      "foreground": "foregroundBluePrimary",
+      "background": "backgroundRedPassive"
     },
     "ParameterInfo": {
       "background": "colorDebug"
     },
     "Popup": {
-      "background": "backgroundBluePassive"
+      "Header": {
+        "activeBackground": "colorDebug"
+      },
+      "Body": {
+
+      },
+      "Advertiser": {
+        "borderColor": "foregroundYellow",
+        "background": "backgroundBlack",
+        "foreground": "foregroundYellow"
+      },
+      "Toolbar": {
+        "background": "colorDebug"
+      },
+      "background": "backgroundBluePassive",
+      "separatorColor": "foregroundRed",
+      "separatorForeground": "colorDebug",
+
+      "borderColor": "foregroundRed",
+      "innerBorderColor": "colorDebug",
+      "inactiveBorderColor": "colorDebug"
     },
     "PopupMenu": {
-      "background": "backgroundBlueActive",
-      "foreground": "foregroundBluePrimary"
+      "foreground": "foregroundBluePrimary",
+      "selectionForeground": "foregroundBluePrimary",
+      "selectionBackground": "ColorDebug"
     },
     "ProgressBar": {
       "background": "backgroundRedActive",
@@ -181,13 +233,18 @@
 
     },
     "ScrollBar": {
-      "background": "colorDebug"
+      "background": "backgroundBluePassive",
+      "thumbColor": "foregroundBluePrimary",
+      "hoverThumbColor": "foregroundBlueSecondary"
     },
+
     "Separator.separatorColor": "foregroundBluePrimary",
+
     "Shortcut": {
       "backgroundColor": "colorDebug",
       "foregroundColor": "colorDebug"
     },
-    "SidePanel.background": "colorDebug"
+
+    "SidePanel.background": "backgroundBluePassive"
   }
 }
