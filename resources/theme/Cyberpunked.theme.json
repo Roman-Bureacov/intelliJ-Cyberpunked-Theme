@@ -1,0 +1,13 @@
+{
+  "name": "Cyberpunked",
+  "author": "Roman Bureacov",
+  "dark": true,
+  "colors": {
+    "primaryRed": "#c000ff"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryRed"
+    }
+  }
+}
