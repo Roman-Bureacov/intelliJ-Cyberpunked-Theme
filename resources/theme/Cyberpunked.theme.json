@@ -157,7 +157,11 @@
 
     },
     "Menu": {
-      "separatorColor": "debugColor"
+      "separatorColor": "debugColor",
+      "foreground": "foregroundBluePrimary",
+      "selectionBackground": "foregroundBluePrimary",
+      "selectionForeground": "foregroundBlueSecondary",
+      "acceleratorSelectionForeground": "foregroundBlueSecondary"
     },
     "MenuBar": {
       "foreground": "colorDebug",
@@ -167,10 +171,11 @@
     },
     "MenuItem": {
       "foreground": "foregroundBluePrimary",
-      "selectionBackground": "foregroundBluePrimary",
       "acceleratorForeground": "foregroundBlueSecondary",
       "disabledForeground": "foregroundBlueSecondary",
-      "selectionForeground": "foregroundBlueSecondary"
+      "selectionBackground": "foregroundBluePrimary",
+      "selectionForeground": "foregroundBlueSecondary",
+      "acceleratorSelectionForeground": "foregroundBlueSecondary"
     },
     "CheckBoxMenuItem": {
 
