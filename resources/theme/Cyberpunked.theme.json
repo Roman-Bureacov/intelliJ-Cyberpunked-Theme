@@ -13,7 +13,16 @@
     "foregroundBlueSecondary": "#3a7974",
     "backgroundBlack": "#131220",
     "foregroundYellow": "#fdd740",
+    "foregroundGreen": "#27f08f",
     "colorDebug": "#ff00ff"
+  },
+  "background": {
+    "image": "/image/backgroundPassive.png",
+    "anchor": "center"
+  },
+  "emptyFrameBackground": {
+    "image": "/image/backgroundPassive.png",
+    "anchor": "center"
   },
   "ui": {
     "*": {
@@ -117,7 +126,8 @@
       "underlineColor": "foregroundBluePrimary",
       "underlinedTabBackground": "backgroundBluePassive",
       "underlinedTabForeground": "foregroundBluePrimary",
-      "inactiveUnderlineColor": "foregroundBlueSecondary"
+      "inactiveUnderlineColor": "foregroundBlueSecondary",
+      "borderColor": "foregroundRed"
     },
     "Editor": {
       "background": "colorDebug",
@@ -132,6 +142,7 @@
     },
     "EditorTabs": {
 
+      "borderColor": "foregroundRed"
     },
     "FormattedTextField": {
       "background": "colorDebug"
@@ -150,31 +161,38 @@
     },
     "MainWindow": {
       "Tab": {
-        "background": "colorDebug"
-      }
+        "background": "colorDebug",
+        "borderColor": "colorDebug",
+        "separatorColor": "colorDebug"
+      },
+      "FullScreeControl.Background": "colorDebug"
+
     },
     "MemoryIndicator": {
 
     },
     "Menu": {
       "separatorColor": "debugColor",
-      "foreground": "foregroundBluePrimary",
-      "selectionBackground": "foregroundBluePrimary",
-      "selectionForeground": "foregroundBlueSecondary",
+      "foreground": "foregroundRed",
+      "selectionBackground": "backgroundBluePassive",
+      "selectionForeground": "foregroundBluePrimary",
       "acceleratorSelectionForeground": "foregroundBlueSecondary"
     },
     "MenuBar": {
-      "foreground": "colorDebug",
-      "selectionForeground": "colorDebug",
-      "selectionBackground": "colordDebug",
-      "borderColor": "colorDebug"
-    },
-    "MenuItem": {
-      "foreground": "foregroundBluePrimary",
-      "acceleratorForeground": "foregroundBlueSecondary",
-      "disabledForeground": "foregroundBlueSecondary",
+      "foreground": "foregroundRed",
       "selectionBackground": "foregroundBluePrimary",
       "selectionForeground": "foregroundBlueSecondary",
+      "borderColor": "colorDebug",
+      "shadow": "colorDebug",
+      "disabledForeground": "colorDebug",
+      "disabledBackground": "colorDebug"
+    },
+    "MenuItem": {
+      "foreground": "foregroundRed",
+      "acceleratorForeground": "foregroundBlueSecondary",
+      "disabledForeground": "foregroundBlueSecondary",
+      "selectionBackground": "backgroundBluePassive",
+      "selectionForeground": "foregroundBluePrimary",
       "acceleratorSelectionForeground": "foregroundBlueSecondary"
     },
     "CheckBoxMenuItem": {
@@ -207,7 +225,7 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "colorDebug"
+        "activeBackground": "backgroundBluePassive"
       },
       "Body": {
 
@@ -222,16 +240,16 @@
       },
       "background": "backgroundBluePassive",
       "separatorColor": "foregroundRed",
-      "separatorForeground": "colorDebug",
+      "separatorForeground": "foregroundYellow",
 
       "borderColor": "foregroundRed",
       "innerBorderColor": "colorDebug",
-      "inactiveBorderColor": "colorDebug"
+      "inactiveBorderColor": "colorDebug",
+
+      "borderWidth": 3
     },
     "PopupMenu": {
-      "foreground": "foregroundBluePrimary",
-      "selectionForeground": "foregroundBluePrimary",
-      "selectionBackground": "ColorDebug"
+      "foreground": "foregroundBluePrimary"
     },
     "ProgressBar": {
       "background": "backgroundRedActive",
