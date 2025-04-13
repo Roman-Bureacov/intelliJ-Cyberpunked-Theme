@@ -179,7 +179,15 @@
     "NavBar.borderColor": "debugColor",
 
     "Notification": {
-      "background": "colorDebug"
+      "background": "backgroundBluePassive",
+      "borderColor": "foregroundBluePrimary",
+
+      "Button": {
+        "background": "backgroundBlueActive",
+        "foreground": "foregroundBluePrimary",
+        "borderColor": "foregroundBluePrimary"
+      }
+
     },
     "OptionPane": {
       "background": "backgroundRedPassive"
