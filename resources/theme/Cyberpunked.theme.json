@@ -1,13 +1,193 @@
 {
   "name": "Cyberpunked",
   "author": "Roman Bureacov",
+  "editorScheme": "colors/Cyberpunk_Theme_Enhanced.xml",
   "dark": true,
   "colors": {
-    "primaryRed": "#c000ff"
+    "backgroundRedInactive": "#0f0e14",
+    "backgroundRedPassive": "#39161c",
+    "backgroundRedActive": "#7a2626",
+    "foregroundRed": "#ff6259",
+    "backgroundBluePassive": "#131220",
+    "backgroundBlueActive": "#286871",
+    "foregroundBluePrimary": "#64fdff",
+    "foregroundBlueSecondary": "#3a7974",
+    "colorDebug": "#ff00ff"
   },
   "ui": {
     "*": {
-      "background": "primaryRed"
-    }
+      "background": "backgroundRedPassive",
+      "foreground": "foregroundRed"
+    },
+
+    "Banner": {
+
+    },
+    "Borders": {
+      "color": "backgroundRedActive",
+      "ContrastBorderColor": "colorDebug"
+    },
+    "Button": {
+      "arc": 5,
+
+      "default": {
+        "startBackground": "backgroundRedActive",
+        "endBackground": "backgroundRedPassive",
+        "shadowColor": "backgroundRedActive",
+        "foreground": "foregroundBluePrimary",
+        "startBorderColor": "foregroundRed",
+        "endBorderColor": "foregroundRed",
+        "focusedBorderColor": "foregroundRed",
+        "focusColor": "foregroundRed",
+        "loadingForeground": "backgroundRedActive"
+      },
+
+      "Split": {
+        "default.iconColor": "foregroundBluePrimary",
+        "default.separatorColor": "forgroundBluePrimary"
+      },
+
+      "background": "backgroundBluePassive",
+      "foreground": "backgroundBlueActive",
+      "startBackground": "backgroundRedPassive",
+      "endBackground": "backgroundRedPassive",
+      "startBorderColor": "foregroundRed",
+      "endBorderColor": "foregroundRed",
+      "shadowColor": "backgroundRedActive",
+      "disabledBorderColor": "backgroundRedActive",
+      "disabledText": "backgroundRedActive",
+      "shadowWidth": 2,
+      "focusedBorderColor": "backgroundRedActive"
+
+    },
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "backgroundBluePassive",
+        "selectedForeground": "foregroundBluePrimary",
+        "selectedBackground": "backgroundBlueActive"
+
+      }
+    },
+    "Code": {
+      "Block": {
+        "backgroundColor": "colorDebug",
+        "EditorPane.backgroundColor": "colorDebug"
+      },
+      "Inline": {
+        "backgroundColor": "colorDebug",
+        "borderColor": "colorDebug"
+      }
+    },
+    "ColorChooser": {
+      "background": "backgroundBluePassive",
+      "foreground": "foregroundBluePrimary"
+    },
+    "CombinedDiff": {
+
+    },
+    "ComboBox": {
+
+    },
+    "CompletionPopup": {
+
+    },
+    "Component": {
+
+    },
+    "Counter": {
+
+    },
+    "Debugger": {
+
+    },
+    "DragAndDrop": {
+
+    },
+    "Editor": {
+      "background": "backgroundRedPassive",
+      "foreground": "foregroundRed",
+      "Gutter": {
+
+      },
+      "Toolbar.borderColor": "colorDebug"
+    },
+    "EditorTabs": {
+
+    },
+    "FormattedTextField": {
+
+    },
+    "Label": {
+
+    },
+    "Link": {
+
+    },
+    "List": {
+
+    },
+    "MainToolbar": {
+      "background": "colorDebug"
+    },
+    "MainWindow": {
+      "Tab": {
+        "background": "colorDebug"
+      }
+    },
+    "MemoryIndicator": {
+
+    },
+    "Menu": {
+
+    },
+    "MenuBar": {
+
+    },
+    "MenuItem": {
+
+    },
+    "NavBar.borderColor": "#000000",
+
+    "Notification": {
+      "background": "colorDebug"
+    },
+    "OptionPane": {
+      "background": "colorDebug"
+    },
+    "Panel": {
+      "foreground": "foregroundBlueSecondary"
+    },
+    "ParameterInfo": {
+      "background": "colorDebug"
+    },
+    "Popup": {
+      "background": "backgroundBluePassive"
+    },
+    "PopupMenu": {
+      "background": "backgroundBlueActive",
+      "foreground": "foregroundBluePrimary"
+    },
+    "ProgressBar": {
+      "background": "backgroundRedActive",
+      "progressColor": "foregroundRed",
+      "indeterminateStartColor": "backgroundRedActive",
+      "indeterminateEndColor": "foregroundRed"
+    },
+    "ProgressIcon.color": "foregroundRed",
+    "RadioButton": {
+
+    },
+    "RadioButtonMenuItem": {
+
+    },
+    "ScrollBar": {
+      "background": "colorDebug"
+    },
+    "Separator.separatorColor": "foregroundBluePrimary",
+    "Shortcut": {
+      "backgroundColor": "colorDebug",
+      "foregroundColor": "colorDebug"
+    },
+    "SidePanel.background": "colorDebug"
   }
 }
