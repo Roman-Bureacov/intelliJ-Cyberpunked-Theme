@@ -1,0 +1,9 @@
+Figured out the colors. Yesterday I found something quite curious:
+
+MenuItem.acceleratorSelectionForeground is deprecated, it suggests to use MenuItem.selectionForeground instead,
+and yet that doesn't actually change the accelerator colors. The note says "not used" and yet it very well looks
+like it IS used.
+
+Today I also uncovered another thing, some of the keys are not actually registered. I've had trouble finding the
+key for the MainMenu.foreground, as it does not show up in the autocomplete, and typing it out says warns it's
+an unrecognized key. Oddly enough, it IS an existing key and does actually change the menu bar foreground

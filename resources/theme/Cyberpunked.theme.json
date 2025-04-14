@@ -124,7 +124,6 @@
       },
 
       "background": "backgroundRedInactive"
-
     },
     "Code": {
       "Block": {
@@ -198,7 +197,11 @@
 
     },
     "MainToolbar": {
-      "background": "backgroundRedPassive"
+      "background": "backgroundRedPassive",
+      "inactiveBackground": "backgroundRedInactive"
+    },
+    "Window": {
+
     },
     "MainWindow": {
       "Tab": {
@@ -336,11 +339,12 @@
     "SidePanel.background": "backgroundRedInactive",
 
     "Tree": {
-      "selectionBackground": "foregroundBluePrimary",
-      "selectionForeground": "foregroundBlueSecondary",
-      "selectionInactiveBackground": "foregroundBlueSecondary",
+      "selectionBackground": "backgroundBlueActive",
+      "selectionForeground": "foregroundBluePrimary",
+      "selectionInactiveBackground": "backgroundBluePassive",
       "selectionInactiveForeground": "foregroundBluePrimary",
-
+      "modifiedItemForeground": "colorDebug"
     }
+
   }
 }
