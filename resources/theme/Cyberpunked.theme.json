@@ -198,7 +198,7 @@
     },
     "MainToolbar": {
       "background": "backgroundRedPassive",
-      "inactiveBackground": "backgroundRedInactive"
+      "separatorColor": "foregrouneBluePrimary"
     },
     "Window": {
 
@@ -343,7 +343,8 @@
       "selectionForeground": "foregroundBluePrimary",
       "selectionInactiveBackground": "backgroundBluePassive",
       "selectionInactiveForeground": "foregroundBluePrimary",
-      "modifiedItemForeground": "colorDebug"
+      "modifiedItemForeground": "colorDebug",
+      "line": "foregroundBluePrimary"
     }
 
   }
