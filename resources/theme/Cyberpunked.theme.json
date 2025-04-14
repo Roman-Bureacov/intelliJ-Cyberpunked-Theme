@@ -60,7 +60,7 @@
 
       "Tree.iconColor": "foregroundBluePrimary",
 
-      "Objects.Grey": "colorDebug"
+      "Objects.Grey": "foregroundRed"
     }
   },
   "ui": {
@@ -221,6 +221,10 @@
       "selectionForeground": "foregroundBluePrimary",
       "acceleratorSelectionForeground": "foregroundBlueSecondary"
     },
+    "MainMenu": {
+      "foreground": "foregroundRed",
+      "selectionForeground": "foregroundBluePrimary"
+    },
     "MenuBar": {
       "foreground": "foregroundRed",
       "selectionBackground": "foregroundBluePrimary",
@@ -329,6 +333,14 @@
       "foregroundColor": "colorDebug"
     },
 
-    "SidePanel.background": "backgroundRedInactive"
+    "SidePanel.background": "backgroundRedInactive",
+
+    "Tree": {
+      "selectionBackground": "foregroundBluePrimary",
+      "selectionForeground": "foregroundBlueSecondary",
+      "selectionInactiveBackground": "foregroundBlueSecondary",
+      "selectionInactiveForeground": "foregroundBluePrimary",
+
+    }
   }
 }
