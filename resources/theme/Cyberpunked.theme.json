@@ -14,6 +14,7 @@
     "backgroundBlack": "#131220",
     "foregroundYellow": "#fdd740",
     "foregroundGreen": "#27f08f",
+    "backgroundGreen": "#054e17",
     "colorDebug": "#ff00ff"
   },
   "background": {
@@ -38,6 +39,9 @@
       "Blue.Fill": "backgroundBlueActive",
       "Blue.Solid": "foregroundBlueSecondary",
       "Blue.Stroke": "foregroundBluePrimary",
+      "Green.Fill": "backgroundGreen",
+      "Green.Solid": "foregroundGreen",
+      "Green.Stroke": "foregroundGreen",
 
       "Actions.Red": "foregroundRed",
       "Actions.Blue": "foregroundBluePrimary",
@@ -45,7 +49,18 @@
       "Actions.Grey": "backgroundRedActive",
       "Actions.Green": "foregroundGreen",
       "Actions.GreyInline": "foregroundRed",
-      "Actions.GreyInlineDark": "foregroundRed"
+      "Actions.GreyInlineDark": "foregroundRed",
+
+      "Checkbox.Background.Default": "backgroundRedPassive",
+      "Checkbox.Background.Disabled": "backgroundRedInactive",
+      "Checkbox.Border.Default": "foregroundRed",
+      "Checkbox.Border.Disabled": "backgroundRedActive",
+      "Checkbox.Foreground.Selected": "foregroundBluePrimary",
+      "Checkbox.Foreground.Disabled": "foregroundBlueSecondary",
+
+      "Tree.iconColor": "foregroundBluePrimary",
+
+      "Objects.Grey": "colorDebug"
     }
   },
   "ui": {
@@ -238,6 +253,12 @@
         "background": "backgroundBlueActive",
         "foreground": "foregroundBluePrimary",
         "borderColor": "foregroundBluePrimary"
+      },
+
+      "ToolWindow": {
+        "errorBorderColor": "foregroundYellow",
+        "errorBackground": "backgroundBlack",
+        "errorForeground": "foregroundYellow"
       }
 
     },
@@ -288,7 +309,9 @@
     },
     "ProgressIcon.color": "foregroundRed",
     "RadioButton": {
-
+      "background": "backgroundRedPassive",
+      "foreground": "foregroundBluePrimary",
+      "disabledText": "backgroundRedInactive"
     },
     "RadioButtonMenuItem": {
 
