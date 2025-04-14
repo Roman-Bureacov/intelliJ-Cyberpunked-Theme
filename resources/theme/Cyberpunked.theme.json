@@ -106,6 +106,7 @@
       "shadowWidth": 2,
       "focusedBorderColor": "foregroundBluePrimary"
     },
+
     "ToolWindow": {
       "Button": {
         "hoverBackground": "backgroundBluePassive",
@@ -198,6 +199,7 @@
     },
     "MainToolbar": {
       "background": "backgroundRedPassive",
+      "inactiveBackground": "backgroundBlack",
       "separatorColor": "foregrouneBluePrimary"
     },
     "Window": {
@@ -233,7 +235,6 @@
       "selectionBackground": "foregroundBluePrimary",
       "selectionForeground": "foregroundBlueSecondary",
       "borderColor": "colorDebug",
-      "shadow": "colorDebug",
       "disabledForeground": "colorDebug",
       "disabledBackground": "colorDebug"
     },
@@ -346,6 +347,5 @@
       "modifiedItemForeground": "colorDebug",
       "line": "foregroundBluePrimary"
     }
-
   }
 }
