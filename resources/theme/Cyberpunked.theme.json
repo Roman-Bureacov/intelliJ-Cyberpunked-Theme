@@ -24,6 +24,30 @@
     "image": "/image/backgroundPassive.png",
     "anchor": "center"
   },
+  "iconColorsOnSelection": {
+
+  },
+  "icons": {
+    "ColorPalette": {
+      "Gray.Stroke": "foregroundRed",
+      "Gray.SecondaryStroke": "BackgroundRedInactive",
+      "Gray.Fill": "backgroundRedActive",
+      "Red.Fill": "backgroundRedActive",
+      "Red.Stroke": "foregroundRed",
+      "Red.Solid": "foregroundRed",
+      "Blue.Fill": "backgroundBlueActive",
+      "Blue.Solid": "foregroundBlueSecondary",
+      "Blue.Stroke": "foregroundBluePrimary",
+
+      "Actions.Red": "foregroundRed",
+      "Actions.Blue": "foregroundBluePrimary",
+      "Actions.Yellow": "foregroundYellow",
+      "Actions.Grey": "backgroundRedActive",
+      "Actions.Green": "foregroundGreen",
+      "Actions.GreyInline": "foregroundRed",
+      "Actions.GreyInlineDark": "foregroundRed"
+    }
+  },
   "ui": {
     "*": {
       "background": "backgroundRedPassive",
@@ -47,7 +71,7 @@
         "foreground": "foregroundBluePrimary",
         "startBorderColor": "foregroundRed",
         "endBorderColor": "foregroundRed",
-        "focusedBorderColor": "foregroundRed",
+        "focusedBorderColor": "foregroundBluePrimary",
         "focusColor": "foregroundRed",
         "loadingForeground": "backgroundRedActive"
       },
@@ -65,8 +89,7 @@
       "disabledBorderColor": "backgroundRedActive",
       "disabledText": "backgroundRedActive",
       "shadowWidth": 2,
-      "focusedBorderColor": "backgroundRedActive"
-
+      "focusedBorderColor": "foregroundBluePrimary"
     },
     "ToolWindow": {
       "Button": {
@@ -79,7 +102,10 @@
         "inactiveBackground": "backgroundRedPassive"
       },
       "HeaderTab": {
-
+        "inactiveUnderlineColor": "backgroundBlueActive",
+        "selectedInactiveBackground": "backgroundBluePassive",
+        "underlinedTabBackground": "backgroundBluePassive",
+        "underlinedTabInactiveBackground": "backgroundBluePassive"
       },
 
       "background": "backgroundRedInactive"
@@ -163,13 +189,15 @@
       "Tab": {
         "background": "colorDebug",
         "borderColor": "colorDebug",
-        "separatorColor": "colorDebug"
+        "separatorColor": "colorDebug",
+        "selectedInactiveBackground": "colorDebug",
+        "selectedForeground": "colorDebug"
       },
       "FullScreeControl.Background": "colorDebug"
-
     },
     "MemoryIndicator": {
-
+      "allocatedBackground": "backgroundBluePassive",
+      "usedBackground": "backgroundBluePassive"
     },
     "Menu": {
       "separatorColor": "debugColor",
@@ -225,7 +253,7 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "backgroundBluePassive"
+        "activeBackground": "backgroundRedActive"
       },
       "Body": {
 
@@ -236,7 +264,8 @@
         "foreground": "foregroundYellow"
       },
       "Toolbar": {
-        "background": "colorDebug"
+        "background": "colorDebug",
+        "borderColor": "colorDebug"
       },
       "background": "backgroundBluePassive",
       "separatorColor": "foregroundRed",
@@ -277,6 +306,6 @@
       "foregroundColor": "colorDebug"
     },
 
-    "SidePanel.background": "backgroundBluePassive"
+    "SidePanel.background": "backgroundRedInactive"
   }
 }
