@@ -18,16 +18,8 @@
     "backgroundGreen": "#054e17",
     "colorDebug": "#ff00ff"
   },
-  "background": {
-    "image": "/image/backgroundPassive.png",
-    "anchor": "center"
-  },
-  "emptyFrameBackground": {
-    "image": "/image/backgroundPassive.png",
-    "anchor": "center"
-  },
   "iconColorsOnSelection": {
-    "": "colorDebug"
+
   },
   "icons": {
     "ColorPalette": {

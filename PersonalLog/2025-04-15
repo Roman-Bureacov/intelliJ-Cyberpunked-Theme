@@ -3,3 +3,5 @@ nor the color of the box around the toolbar icons
 
 Tree.selectionInactiveForeground doesn't seem to work. Deprecated note suggests this, but the doc is also false,
 Tree.foreground is NOT used.
+
+Removed the background image, the plugin jar didn't take it with it for some reason. Shame.
