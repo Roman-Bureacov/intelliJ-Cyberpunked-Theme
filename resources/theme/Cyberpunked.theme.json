@@ -97,9 +97,9 @@
       },
 
       "startBackground": "backgroundRedPassive",
-      "endBackground": "backgroundRedPassive",
+      "endBackground": "backgroundRedInactive",
       "startBorderColor": "foregroundRed",
-      "endBorderColor": "foregroundRed",
+      "endBorderColor": "backgroundRedActive",
       "shadowColor": "backgroundRedActive",
       "disabledBorderColor": "backgroundRedActive",
       "disabledText": "backgroundRedActive",
@@ -108,9 +108,11 @@
     },
 
     "Spinner": {
-      "background": "colorDebug",
-      "foreground": "colorDebug"
+      "background": "backgroundBlueActive",
+      "foreground": "foregroundBluePrimary"
     },
+
+    "BigSpinner.background": "backgroundBluePassive",
 
     "TextField": {
       "background": "backgroundBluePassive",
@@ -118,6 +120,19 @@
       "caretForeground": "foregroundBluePrimary",
       "selectionBackground": "backgroundBlueActive",
       "selectionForeground": "foregroundBluePrimary"
+    },
+
+    "TextArea": {
+      "caretForeground": "foregroundBluePrimary",
+
+      "background": "backgroundBluePassive",
+      "foreground": "foregroundBluePrimary",
+
+      "selectionBackground": "backgroundBlueActive",
+      "selectionForeground": "foregroundBluePrimary",
+
+      "inactiveBackground": "backgroundRedInactive",
+      "inactiveForeground": "foregroundBlueSecondary"
     },
 
     "ToolWindow": {
@@ -167,7 +182,7 @@
       "ArrowButton": {
         "background": "backgroundBlueActive",
         "iconColor": "foregroundBluePrimary",
-        "disabledIconColor": "colorDebug",
+        "disabledIconColor": "foregroundBlueSecondary",
         "nonEditableBackground": "backgroundBlueActive"
       },
 
@@ -225,6 +240,12 @@
     "FormattedTextField": {
       "background": "colorDebug"
     },
+    "SpeedSearch": {
+      "background": "backgroundBlack",
+      "foreground": "foregroundYellow",
+      "borderColor": "foregroundYellow",
+      "errorForeground": "foregroundBlueSecondary"
+    },
     "Label": {
       "foreground": "foregroundBluePrimary"
     },
@@ -232,7 +253,13 @@
 
     },
     "List": {
+      "background": "backgroundRedInactive",
+      "selectionBackground": "foregroundBluePrimary",
+      "selectionForeground": "foregroundBlueSecondary",
 
+      "hoverBackground": "colorDebug",
+      "selectionInactiveForeground": "foregroundBluePrimary",
+      "selectionInactiveBackground": "backgroundBlueActive"
     },
     "MainToolbar": {
       "background": "backgroundRedPassive",
@@ -285,6 +312,10 @@
     },
     "CheckBoxMenuItem": {
 
+    },
+
+    "CheckBox": {
+      "disabledText": "foregroundBlueSecondary"
     },
 
     "NavBar.borderColor": "debugColor",
