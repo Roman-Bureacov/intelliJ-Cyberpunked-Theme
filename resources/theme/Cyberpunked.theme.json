@@ -26,7 +26,7 @@
     "anchor": "center"
   },
   "iconColorsOnSelection": {
-
+    "": "debugColor"
   },
   "icons": {
     "ColorPalette": {
@@ -46,7 +46,7 @@
       "Actions.Red": "foregroundRed",
       "Actions.Blue": "foregroundBluePrimary",
       "Actions.Yellow": "foregroundYellow",
-      "Actions.Grey": "backgroundRedActive",
+      "Actions.Grey": "foregroundRed",
       "Actions.Green": "foregroundGreen",
       "Actions.GreyInline": "foregroundRed",
       "Actions.GreyInlineDark": "foregroundRed",
@@ -107,6 +107,19 @@
       "focusedBorderColor": "foregroundBluePrimary"
     },
 
+    "Spinner": {
+      "background": "colorDebug",
+      "foreground": "colorDebug"
+    },
+
+    "TextField": {
+      "background": "backgroundBluePassive",
+      "foreground": "foregroundBlue",
+      "caretForeground": "foregroundBluePrimary",
+      "selectionBackground": "backgroundBlueActive",
+      "selectionForeground": "foregroundBluePrimary"
+    },
+
     "ToolWindow": {
       "Button": {
         "hoverBackground": "backgroundBluePassive",
@@ -126,6 +139,13 @@
 
       "background": "backgroundRedInactive"
     },
+
+    "ToolTip": {
+      "borderColor": "foregroundBluePrimary",
+      "background": "backgroundBluePassive",
+      "foreground": "foregroundBluePrimary",
+      "shortcutForeground": "foregroundBlueSecondary"
+    },
     "Code": {
       "Block": {
         "backgroundColor": "colorDebug",
@@ -144,6 +164,23 @@
 
     },
     "ComboBox": {
+      "ArrowButton": {
+        "background": "backgroundBlueActive",
+        "iconColor": "foregroundBluePrimary",
+        "disabledIconColor": "colorDebug",
+        "nonEditableBackground": "backgroundBlueActive"
+      },
+
+      "foreground": "foregroundBluePrimary",
+      "background": "backgroundBluePassive",
+
+      "selectionBackground": "backgroundBlueActive",
+      "selectionForeground": "foregroundBluePrimary",
+
+      "nonEditableBackground": "backgroundBlueActive",
+
+      "disabledForeground": "foregroundBlueSecondary",
+      "disabledBackground": "backgroundRedInactive"
 
     },
     "CompletionPopup": {
@@ -220,7 +257,7 @@
       "usedBackground": "backgroundBluePassive"
     },
     "Menu": {
-      "separatorColor": "debugColor",
+      "separatorColor": "foregroundRed",
       "foreground": "foregroundRed",
       "selectionBackground": "backgroundBluePassive",
       "selectionForeground": "foregroundBluePrimary",
@@ -282,7 +319,10 @@
     },
     "Popup": {
       "Header": {
-        "activeBackground": "backgroundRedActive"
+        "activeBackground": "backgroundRedActive",
+        "activeForeground": "foregroundBluePrimary",
+        "inactiveBackground": "backgroundRedPassive",
+        "inactiveForeground": "foregroundRed"
       },
       "Body": {
 
@@ -302,12 +342,14 @@
 
       "borderColor": "foregroundRed",
       "innerBorderColor": "colorDebug",
-      "inactiveBorderColor": "colorDebug",
+      "inactiveBorderColor": "colorDebug"
 
-      "borderWidth": 3
     },
     "PopupMenu": {
-      "foreground": "foregroundBluePrimary"
+      "foreground": "foregroundBluePrimary",
+      "background": "backgroundRedActive",
+      "selectionForeground": "foregroundBluePrimary",
+      "selectionBackground": "backgroundBlueActive"
     },
     "ProgressBar": {
       "background": "backgroundRedActive",
@@ -319,7 +361,7 @@
     "RadioButton": {
       "background": "backgroundRedPassive",
       "foreground": "foregroundBluePrimary",
-      "disabledText": "backgroundRedInactive"
+      "disabledText": "backgroundRedActive"
     },
     "RadioButtonMenuItem": {
 
@@ -344,8 +386,7 @@
       "selectionForeground": "foregroundBluePrimary",
       "selectionInactiveBackground": "backgroundBluePassive",
       "selectionInactiveForeground": "foregroundBluePrimary",
-      "modifiedItemForeground": "colorDebug",
-      "line": "foregroundBluePrimary"
+      "modifiedItemForeground": "colorDebug"
     }
   }
 }
