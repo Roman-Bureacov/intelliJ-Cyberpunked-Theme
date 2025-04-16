@@ -1,0 +1,5 @@
+still have no idea what keys manage the colors of the icon when selected
+nor the color of the box around the toolbar icons
+
+Tree.selectionInactiveForeground doesn't seem to work. Deprecated note suggests this, but the doc is also false,
+Tree.foreground is NOT used.

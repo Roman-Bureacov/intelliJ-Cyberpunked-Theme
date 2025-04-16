@@ -26,7 +26,7 @@
     "anchor": "center"
   },
   "iconColorsOnSelection": {
-    "": "debugColor"
+    "": "colorDebug"
   },
   "icons": {
     "ColorPalette": {
@@ -72,6 +72,7 @@
     "Banner": {
 
     },
+
     "Borders": {
       "color": "backgroundRedActive",
       "ContrastBorderColor": "colorDebug"
@@ -159,7 +160,7 @@
       "borderColor": "foregroundBluePrimary",
       "background": "backgroundBluePassive",
       "foreground": "foregroundBluePrimary",
-      "shortcutForeground": "foregroundBlueSecondary"
+      "shortcutForeground": "foregroundYellow"
     },
     "Code": {
       "Block": {
@@ -202,7 +203,7 @@
 
     },
     "Component": {
-      "borderColor": "debugColor"
+      "borderColor": "colorDebug"
     },
     "Counter": {
 
@@ -223,15 +224,13 @@
       "borderColor": "foregroundRed"
     },
     "Editor": {
-      "background": "colorDebug",
-      "foreground": "colorDebug",
       "Gutter": {
 
       },
       "SearchField": {
         "background": "backgroundBluePassive"
       },
-      "shortcutForeground": "colorDebug"
+      "shortcutForeground": "foregroundYellow"
     },
     "EditorTabs": {
 
@@ -247,24 +246,25 @@
       "errorForeground": "foregroundBlueSecondary"
     },
     "Label": {
-      "foreground": "foregroundBluePrimary"
+      "foreground": "foregroundRed"
     },
     "Link": {
 
     },
     "List": {
       "background": "backgroundRedInactive",
-      "selectionBackground": "foregroundBluePrimary",
-      "selectionForeground": "foregroundBlueSecondary",
+      "selectionBackground": "backgroundBlueActive",
+      "selectionForeground": "foregroundBluePrimary",
 
-      "hoverBackground": "colorDebug",
+      "hoverBackground": "backgroundBlueActive",
+      "hoverInactiveBackground": "backgroundRedPassive",
       "selectionInactiveForeground": "foregroundBluePrimary",
       "selectionInactiveBackground": "backgroundBlueActive"
     },
     "MainToolbar": {
       "background": "backgroundRedPassive",
       "inactiveBackground": "backgroundBlack",
-      "separatorColor": "foregrouneBluePrimary"
+      "separatorColor": "foregroundRed"
     },
     "Window": {
 
@@ -273,9 +273,9 @@
       "Tab": {
         "background": "colorDebug",
         "borderColor": "colorDebug",
-        "separatorColor": "colorDebug",
+        "separatorColor": "foregroundYellow",
         "selectedInactiveBackground": "colorDebug",
-        "selectedForeground": "colorDebug"
+        "selectedForeground": "backgroundBlueActive"
       },
       "FullScreeControl.Background": "colorDebug"
     },
@@ -288,7 +288,7 @@
       "foreground": "foregroundRed",
       "selectionBackground": "backgroundBluePassive",
       "selectionForeground": "foregroundBluePrimary",
-      "acceleratorSelectionForeground": "foregroundBlueSecondary"
+      "acceleratorSelectionForeground": "foregroundYellow"
     },
     "MainMenu": {
       "foreground": "foregroundRed",
@@ -304,11 +304,11 @@
     },
     "MenuItem": {
       "foreground": "foregroundRed",
-      "acceleratorForeground": "foregroundBlueSecondary",
+      "acceleratorForeground": "foregroundYellow",
       "disabledForeground": "foregroundBlueSecondary",
       "selectionBackground": "backgroundBluePassive",
       "selectionForeground": "foregroundBluePrimary",
-      "acceleratorSelectionForeground": "foregroundBlueSecondary"
+      "acceleratorSelectionForeground": "foregroundYellow"
     },
     "CheckBoxMenuItem": {
 
@@ -318,7 +318,7 @@
       "disabledText": "foregroundBlueSecondary"
     },
 
-    "NavBar.borderColor": "debugColor",
+    "NavBar.borderColor": "colorDebug",
 
     "Notification": {
       "foreground": "foregroundBluePrimary",
@@ -342,7 +342,7 @@
       "background": "backgroundRedPassive"
     },
     "Panel": {
-      "foreground": "foregroundBluePrimary",
+      "foreground": "foregroundRed",
       "background": "backgroundRedPassive"
     },
     "ParameterInfo": {
@@ -351,7 +351,7 @@
     "Popup": {
       "Header": {
         "activeBackground": "backgroundRedActive",
-        "activeForeground": "foregroundBluePrimary",
+        "activeForeground": "foregroundRed",
         "inactiveBackground": "backgroundRedPassive",
         "inactiveForeground": "foregroundRed"
       },
@@ -378,7 +378,7 @@
     },
     "PopupMenu": {
       "foreground": "foregroundBluePrimary",
-      "background": "backgroundRedActive",
+      "background": "backgroundRedPassive",
       "selectionForeground": "foregroundBluePrimary",
       "selectionBackground": "backgroundBlueActive"
     },
@@ -403,11 +403,11 @@
       "hoverThumbColor": "foregroundBlueSecondary"
     },
 
-    "Separator.separatorColor": "foregroundBluePrimary",
+    "Separator.separatorColor": "foregroundRed",
 
     "Shortcut": {
       "backgroundColor": "colorDebug",
-      "foregroundColor": "colorDebug"
+      "foregroundColor": "foregroundYellow"
     },
 
     "SidePanel.background": "backgroundRedInactive",
