@@ -7,10 +7,8 @@ If you find any Magentas (#FF00FF) please to report them. During development, it
 So far a bit of a beta release. To run the theme:
 
 1. Go to `Deployment` and install the corresponding `.jar`.
-2. In intelliJ, go to Settings -> Appearance & Behavior -> Appearance
-3. On the line Editor color Scheme, click on the gear
-4. Click on Import Scheme
-5. Select IntelliJ IDEA or color schem (.icls) or settings (.jar)
-6. Find the `.jar` you downloaded and select it
-7. Go to Them and select the new custom theme
-8. Enjoy the new chrome, choom
+2. In IntelliJ, go to Settings -> Plugins
+3. Click on the gear icon and Install Plugin from Disk..
+4. Select the `.jar` you downloaded
+5. Click "OK"
+6. Enjoy the new chrome, choom
