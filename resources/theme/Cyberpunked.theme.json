@@ -157,12 +157,12 @@
     },
     "Code": {
       "Block": {
-        "backgroundColor": "colorDebug",
-        "EditorPane.backgroundColor": "colorDebug"
+        "backgroundColor": "backgroundRedActive",
+        "EditorPane.backgroundColor": "foregroundRed"
       },
       "Inline": {
-        "backgroundColor": "colorDebug",
-        "borderColor": "colorDebug"
+        "backgroundColor": "backgroundRedActive",
+        "borderColor": "foregroundRed"
       }
     },
     "ColorChooser": {
