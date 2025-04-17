@@ -1,0 +1,7 @@
+Okay, so this is a really strange bug.
+
+Inspection of documentation leads to magenta around in-line code.
+
+Changing the "colorDebug" to another color does not affect the in-line code of the documentation.
+
+So now I am stuck with a misbehaving API for some reason. Changing keys does not change the magenta ???
