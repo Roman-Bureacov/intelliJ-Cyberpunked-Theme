@@ -1,6 +1,7 @@
 {
   "name": "Cyberpunked",
   "author": "Roman Bureacov",
+  "editorScheme": "/colors/Cyberpunk_Theme_Enhanced.xml",
   "dark": true,
   "colors": {
     "backgroundRedInactive": "#260000",
