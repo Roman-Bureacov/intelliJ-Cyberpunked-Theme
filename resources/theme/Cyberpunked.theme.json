@@ -362,7 +362,7 @@
         "foreground": "foregroundYellow"
       },
       "Toolbar": {
-        "background": "colorDebug",
+        "background": "backgroundRedPassive",
         "borderColor": "colorDebug"
       },
       "background": "backgroundBluePassive",
