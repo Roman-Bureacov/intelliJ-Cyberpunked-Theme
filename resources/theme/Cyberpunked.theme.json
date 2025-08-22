@@ -68,7 +68,7 @@
 
     "Borders": {
       "color": "backgroundRedActive",
-      "ContrastBorderColor": "colorDebug"
+      "ContrastBorderColor": "foregroundRed"
     },
     "Button": {
       "arc": 5,
