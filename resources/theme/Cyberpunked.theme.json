@@ -316,7 +316,7 @@
       "disabledText": "foregroundBlueSecondary"
     },
 
-    "NavBar.borderColor": "colorDebug",
+    "NavBar.borderColor": "foregroundRed",
 
     "Notification": {
       "foreground": "foregroundBluePrimary",
@@ -344,7 +344,7 @@
       "background": "backgroundRedPassive"
     },
     "ParameterInfo": {
-      "background": "colorDebug"
+      "background": "foregroundRed"
     },
     "Popup": {
       "Header": {
@@ -363,15 +363,15 @@
       },
       "Toolbar": {
         "background": "backgroundRedPassive",
-        "borderColor": "colorDebug"
+        "borderColor": "foregroundRed"
       },
       "background": "backgroundBluePassive",
       "separatorColor": "foregroundRed",
       "separatorForeground": "foregroundYellow",
 
       "borderColor": "foregroundRed",
-      "innerBorderColor": "colorDebug",
-      "inactiveBorderColor": "colorDebug"
+      "innerBorderColor": "backgroundRedPassive",
+      "inactiveBorderColor": "backgroundRedInactive"
 
     },
     "PopupMenu": {
@@ -415,7 +415,7 @@
       "selectionForeground": "foregroundBluePrimary",
       "selectionInactiveBackground": "backgroundBluePassive",
       "selectionInactiveForeground": "foregroundBluePrimary",
-      "modifiedItemForeground": "colorDebug"
+      "modifiedItemForeground": "foregroundYellow"
     }
   }
 }
